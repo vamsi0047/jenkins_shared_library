@@ -4,11 +4,11 @@
 
 vars:
   the groovy files inside the vars folder can be access inside pipeline by call the groovyfile
-  ex: -
-     sonar.groovy file contains below methods
-     call()
-     sonarreport()
-        
+     ex: -
+         sonar.groovy file contains below methods
+         call()
+         sonarreport()
+         
       in pipeline I will call with sonar() or sonar.call() and second method with sonar.sonarrepot().
       if the method name is call you don't need to mention method name explicitly.
 
