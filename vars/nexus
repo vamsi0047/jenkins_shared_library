@@ -1,0 +1,3 @@
+def nexus() {
+  echo "pushing artifact to nexus"
+}
